@@ -3,6 +3,6 @@
 // ======================================
 
 
-// Base Styles
-@import 'base/typography',
- 		'base/base';
+@import 'base/index';
+@import 'component/index';
+@import 'utilities/index';
