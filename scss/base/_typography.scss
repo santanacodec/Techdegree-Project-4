@@ -1,17 +1,17 @@
 // Typography
 
 .headline-primary {
-    color: #58e1c1;
+    color: $aquamarine;
     margin-left: 10px;
 }
 
 .headline-secondary {
     font-weight: 300;
-    color: #777;
+    color: $gray;
 }
 
 .link {
-    color: #51ddfc;
+    color: $aqua;
     font-weight: 700;
 }
 
@@ -21,6 +21,6 @@
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid #58e1c1;
+    border-left: 8px solid $aquamarine;
     border-radius: 5px;
 }
