@@ -1,5 +1,6 @@
-// Grid
-
+// ======================================
+//  Grid
+// ======================================
 .container {
     padding: 0 10px;
 }
@@ -11,7 +12,7 @@
 }
 
 [class^=col] {
-    margin-top: 10px;
+    margin-top: $gutter;
     flex-basis: 100%;
     min-height: 25px;
     padding: 10px;

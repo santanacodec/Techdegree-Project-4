@@ -1,11 +1,13 @@
-// Images
+// ======================================
+//  Images
+// ======================================
 
 .img-avatar {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    max-width: 100%;
+    max-width: $max-width;
     max-height: 100%;
 }
 
@@ -13,10 +15,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    max-width: 100%;
+    margin-top: $gutter;
+    max-width: $max-width;
     padding: 13px;
-    border: 1px solid #ccc;
+    border: 1px solid $silver;
 }
 
 .img-logo {

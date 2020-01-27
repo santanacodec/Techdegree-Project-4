@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\resources",
+    "\\resources\\css",
     "\\scss",
     "\\scss\\base",
     "\\scss\\component",
     "\\scss\\utilities"
   ],
-  "SelectedNode": "\\scss\\component\\_navigation.scss",
+  "SelectedNode": "\\resources\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }

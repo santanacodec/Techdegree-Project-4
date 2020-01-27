@@ -7,6 +7,14 @@ $white: #fff;
 $aquamarine: #58e1c1;
 $aqua: #51ddfc;
 $gray: #777;
+$silver: #ccc;
 
 // Fonts
 $font-stack-primary: 'Lato', sans-serif;
+
+// Layout
+$max-width: 100%;
+$gutter: 10px;
+
+// Breakpoint
+$breakpoint: ('dt': 768px);
