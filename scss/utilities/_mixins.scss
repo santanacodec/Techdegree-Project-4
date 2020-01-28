@@ -6,6 +6,17 @@
 @mixin btn-background($btn-background) {
     @extend .btn;
     background-color: $btn-background;
+
+    &:hover {
+        background: lighten($btn-background, 10%);
+        transition: all 0.3s ease;
+    }
+}
+
+// Theme Colors
+@mixin themes($col-background) {
+    @extend .theme;
+    background-color: $col-background;
 }
 
 // Media Queries
@@ -19,3 +30,4 @@
         @warn "'#{$break}' is not a valid breakpoint name.";
     }
 }
+

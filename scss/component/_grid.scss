@@ -2,69 +2,69 @@
 //  Grid
 // ======================================
 .container {
-    padding: 0 10px;
+    padding: 0 $gutter;
 }
 
 .row {
     display: flex;
     flex-direction: column;
-    padding: 1em 10px;
+    padding: 1em $gutter;
 }
 
 [class^=col] {
     margin-top: $gutter;
     flex-basis: $max-flex;
     min-height: 25px;
-    padding: 10px;
+    padding: $gutter;
     border-radius: 5px;
 }
 
 .theme.col-1 {
-    background-color: #927bc1;
+    @include themes($theme-1);
 }
 
 .theme.col-2 {
-    background-color: #fd7856;
+    @include themes($theme-2);
 }
 
 .theme.col-3 {
-    background-color: #deb2ee;
+    @include themes($theme-3);
 }
 
 .theme.col-4 {
-    background-color: #7ee6fd;
+    @include themes($theme-4);
 }
 
 .theme.col-5 {
-    background-color: #88d9a0;
+    @include themes($theme-5);
 }
 
 .theme.col-6 {
-    background-color: #4da2bb;
+    @include themes($theme-6);
 }
 
 .theme.col-7 {
-    background-color: #ec9fa3;
+    @include themes($theme-7);
 }
 
 .theme.col-8 {
-    background-color: #fd9f85;
+    @include themes($theme-8);
 }
 
 .theme.col-9 {
-    background-color: #e4757a;
+    @include themes($theme-9);
 }
 
 .theme.col-10 {
-    background-color: #63cc82;
+    @include themes($theme-10);
 }
 
 .theme.col-11 {
-    background-color: #51ddfc;
+    @include themes($theme-11);
 }
 
 .theme.col-12 {
-    background-color: #80e8d1;
+    @include themes($theme-12);
 }
 
 .card {
@@ -96,9 +96,9 @@
 
     [class^=col] {
         display: flex;
-        justify-content: center;
+        justify-content: $align-center;
         margin-top: 0;
-        align-items: center;
+        align-items: $align-center;
     }
 
     [class^=col] + [class^=col] {
@@ -156,7 +156,7 @@
     .nav {
         flex-direction: row;
         justify-content: flex-end;
-        align-items: center;
+        align-items: $align-center;
     }
 
     .nav-link {
@@ -164,7 +164,7 @@
     }
 
     .btn {
-        padding: 10px 30px;
+        padding: $gutter 30px;
     }
 
     .btn + .btn {

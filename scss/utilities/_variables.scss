@@ -16,8 +16,27 @@ $info: #927bc1;
 $success: #63cc82;
 $warning: #fd7856;
 
+// Theme Colors
+$theme-1: #927bc1;
+$theme-2: #fd7856;
+$theme-3: #deb2ee;
+$theme-4: #7ee6fd;
+$theme-5: #88d9a0;
+$theme-6: #4da2bb;
+$theme-7: #ec9fa3;
+$theme-8: #fd9f85;
+$theme-9: #e4757a;
+$theme-10: #63cc82;
+$theme-11: #51ddfc;
+$theme-12: #80e8d1;
+
 // Fonts
 $font-stack-primary: 'Lato', sans-serif;
+$primary-font-weight: 300;
+$link-weight: 700;
+$p-height: 1.45em;
+$link-decoration: none;
+$box-border: border-box;
 
 // Layout
 $max-width: 100%;
@@ -26,6 +45,7 @@ $max-flex: 100%;
 $gutter: 10px;
 $block-display: block;
 $margin-auto: auto;
+$align-center: center;
 
 // Breakpoint
 $breakpoint: ('dt': 768px);

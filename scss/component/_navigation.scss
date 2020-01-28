@@ -10,9 +10,9 @@
 }
 
 .nav-link {
-    text-align: center;
+    text-align: $align-center;
     border-radius: 5px;
-    padding: 10px 0;
+    padding: $gutter 0;
     display: $block-display;
     width: $max-width;
     transition: background-color .2s ease-in-out, color .2s ease-in-out;
