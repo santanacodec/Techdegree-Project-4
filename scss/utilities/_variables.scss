@@ -9,12 +9,23 @@ $aqua: #51ddfc;
 $gray: #777;
 $silver: #ccc;
 
+// Button Colors
+$default: #51ddfc;
+$error: #e4757a;
+$info: #927bc1;
+$success: #63cc82;
+$warning: #fd7856;
+
 // Fonts
 $font-stack-primary: 'Lato', sans-serif;
 
 // Layout
 $max-width: 100%;
+$max-height: 100%;
+$max-flex: 100%;
 $gutter: 10px;
+$block-display: block;
+$margin-auto: auto;
 
 // Breakpoint
 $breakpoint: ('dt': 768px);

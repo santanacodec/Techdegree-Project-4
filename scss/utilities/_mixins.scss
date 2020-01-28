@@ -1,3 +1,21 @@
 // ======================================
 //  Mixins
 // ======================================
+
+// Button Background Colors
+@mixin btn-background($btn-background) {
+    @extend .btn;
+    background-color: $btn-background;
+}
+
+// Media Queries
+@mixin mq ($break) {
+    @if map-has-key($breakpoint, $break) {
+        @media (min-width: map-get($breakpoint, $break)) {
+            @content;
+        }
+    }
+    @else {
+        @warn "'#{$break}' is not a valid breakpoint name.";
+    }
+}

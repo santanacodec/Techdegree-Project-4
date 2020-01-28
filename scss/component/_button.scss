@@ -13,21 +13,24 @@
 }
 
 .default {
-    background-color: #51ddfc;
+    @include btn-background($default);
 }
 
 .error {
-    background-color: #e4757a;
+    @include btn-background($error);
 }
 
 .info {
-    background-color: #927bc1;
+    @include btn-background($info);
 }
 
 .success {
-    background-color: #63cc82;
+    @include btn-background($success);
 }
 
 .warning {
-    background-color: #fd7856;
+    @include btn-background($warning);
 }
+
+
+

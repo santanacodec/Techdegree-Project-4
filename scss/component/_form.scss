@@ -3,13 +3,13 @@
 // ======================================
 
 .form {
-    flex-basis: 100%;
+    flex-basis: $max-flex;
 }
 
 .input {
-    display: block;
+    display: $block-display;
     width: 94%;
-    margin: $gutter auto 0;
+    margin: $gutter $margin-auto 0;
     border: none;
     padding: 10px;
     border-bottom: 5px solid $aquamarine;
@@ -18,7 +18,7 @@
 .hidden {
     position: absolute;
     left: -10000px;
-    top: auto;
+    top: $margin-auto;
     width: 1px;
     height: 1px;
     overflow: hidden;

@@ -13,7 +13,7 @@
 
 [class^=col] {
     margin-top: $gutter;
-    flex-basis: 100%;
+    flex-basis: $max-flex;
     min-height: 25px;
     padding: 10px;
     border-radius: 5px;
@@ -68,26 +68,26 @@
 }
 
 .card {
-    flex-basis: 100%;
+    flex-basis: $max-flex;
 }
 
 // ======================================
 //  Media Queries
 // ======================================
 
-@media (min-width: 768px) {
+@include mq('dt') {
 
     .container {
         max-width: 1400px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        display: $block-display;
+        margin-left: $margin-auto;
+        margin-right: $margin-auto;
     }
 
     .centered {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        display: $block-display;
+        margin-left: $margin-auto;
+        margin-right: $margin-auto;
     }
 
     .row {
@@ -102,7 +102,7 @@
     }
 
     [class^=col] + [class^=col] {
-        margin-left: 10px;
+        margin-left: $gutter;
     }
 
     .col-1 {
@@ -150,7 +150,7 @@
     }
 
     .col-12 {
-        flex-basis: 100%;
+        flex-basis: $max-flex;
     }
 
     .nav {
@@ -168,7 +168,7 @@
     }
 
     .btn + .btn {
-        margin-left: 10px;
+        margin-left: $gutter;
     }
 
     .logo {
